@@ -1,0 +1,12 @@
+body {
+    font-family: sans-serif;
+  }
+
+  .custom-scroll {
+    scrollbar-width: none; /* สำหรับ Firefox */
+    -ms-overflow-style: none; /* สำหรับ Internet Explorer และ Edge */
+  }
+  
+  .custom-scroll::-webkit-scrollbar {
+    display: none; /* สำหรับ Chrome, Safari, และ Opera */
+  }

@@ -1,0 +1,73 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/cache": "^11.13.1",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@heroicons/react": "^2.1.5",
+    "@mui/icons-material": "^5.16.7",
+    "@mui/joy": "^5.0.0-beta.48",
+    "@mui/material": "^5.16.7",
+    "@mui/material-nextjs": "^5.16.6",
+    "@mui/x-charts": "^7.18.0",
+    "@mui/x-data-grid": "^7.14.0",
+    "@mui/x-date-pickers": "^7.13.0",
+    "@react-leaflet/core": "^2.1.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/axios": "^0.14.0",
+    "@types/jest": "^27.5.2",
+    "@types/leaflet": "^1.9.12",
+    "@types/node": "^16.18.101",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "ajv": "^8.16.0",
+    "ajv-keywords": "^5.1.0",
+    "axios": "^1.7.5",
+    "leaflet": "^1.9.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^6.24.1",
+    "react-scripts": "5.0.1",
+    "recharts": "^2.12.7",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.25.3",
+    "@babel/preset-typescript": "^7.24.7",
+    "@types/react-router-dom": "^5.3.3",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "tailwindcss": "^3.4.4",
+    "ts-loader": "^9.5.1"
+  }
+}
